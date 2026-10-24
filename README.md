@@ -21,15 +21,6 @@ ViruTwin predicts whether a protein sequence is a human virulence factor (VF) us
 ---
 
 ## Model Performance (Test Set, n=1,200)
-
-| Architecture | Feature | F1 | AUROC | AUPRC |
-|---|---|:---:|:---:|:---:|
-| MLP (shallow) | Concatenated | **0.8456** | **0.9216** | **0.9261** |
-| DPF wo/SelfAttn | ESM-2 + ProtT5 | 0.8238 | 0.9110 | 0.9142 |
-| DPF Full | ESM-2 + ProtT5 | 0.8166 | 0.9049 | 0.9043 |
-| VFIterTuned | Concatenated | 0.8176 | 0.9011 | 0.9005 |
-| **SuperEnsemble** | Combined | — | **0.9199** | **0.9210** |
-
 &gt; See `docs/verification_correct.csv` for complete results.
 
 ---
