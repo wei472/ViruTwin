@@ -1,0 +1,43 @@
+{
+  "project": "ViruTwin",
+  "description": "Human virulence factor prediction models",
+  "pytorch_models": {
+    "VFIter_cat": "cat__VFIter.pth",
+    "VFIter_esm2": "esm2__VFIter.pth",
+    "VFIter_p5": "p5__VFIter.pth",
+    "VFIterTuned_esm2": "esm2__VFIterTuned.pth",
+    "VFIterTuned_p5": "p5__VFIterTuned.pth",
+    "VFIterTuned_cat": "cat__VFIterTuned.pth",
+    "DPF_Full": "cat__M0_Full.pth",
+    "DPF_wo_Gating": "cat__M1_wo_Gating.pth",
+    "DPF_wo_SelfAttn": "cat__M2_wo_SelfAttn.pth",
+    "DPF_wo_CrossAttn": "cat__M3_wo_CrossAttn.pth",
+    "DPF_wo_Balancing": "cat__M4_wo_Balancing.pth",
+    "MLP_esm2": "esm2__MLP.pth",
+    "MLP_p5": "p5__MLP.pth",
+    "MLP_cat": "cat__MLP.pth",
+    "CNN_esm2": "esm2__CNN.pth",
+    "CNN_p5": "p5__CNN.pth",
+    "CNN_cat": "cat__CNN.pth",
+    "BiLSTM_esm2": "esm2__BiLSTM.pth",
+    "BiLSTM_p5": "p5__BiLSTM.pth",
+    "BiLSTM_cat": "cat__BiLSTM.pth",
+    "GRU_esm2": "esm2__GRU.pth",
+    "GRU_p5": "p5__GRU.pth",
+    "GRU_cat": "cat__GRU.pth",
+    "Transformer_esm2": "esm2__Transformer.pth",
+    "Transformer_p5": "p5__Transformer.pth",
+    "Transformer_cat": "cat__Transformer.pth"
+  },
+  "sklearn_models": {
+    "RandomForest_esm2": "esm2__RandomForest.joblib",
+    "RandomForest_p5": "p5__RandomForest.joblib",
+    "RandomForest_cat": "cat__RandomForest.joblib",
+    "XGBoost_esm2": "esm2__XGBoost.joblib",
+    "XGBoost_p5": "p5__XGBoost.joblib",
+    "XGBoost_cat": "cat__XGBoost.joblib",
+    "MLPbase_esm2": "esm2__MLP.joblib",
+    "MLPbase_p5": "p5__MLP.joblib",
+    "MLPbase_cat": "cat__MLP.joblib"
+  }
+}
